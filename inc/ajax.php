@@ -26,13 +26,10 @@ function submit_nells_contact(){
 	{
 		$to = get_bloginfo( 'admin_email' );	
 		$subject = "Message from: " . $name;
-		//$headers[] = 'From: '.get_bloginfo( 'name' ).' <'.$email.'>';
-		$headers[] = 'From: Jared\'s Website' .' <'.$email.'>';
-		//$headers[] = 'from Jared\'s Website <jared@jaredpresnell.me>';
+		$headers[] = 'From: '.get_bloginfo( 'name' ).' <'.$email.'>';
+		//$headers[] = 'From: Jared\'s Website' .' <'.$email.'>';
 		$headers[] = 'Reply-to: '.$name.' <'.$email.'>';
-		//$headers[] = 'Content-Type: text/html: charset=UTF-8';
 		wp_mail( $to, $subject, $message, $headers);	
-		// wp_mail($to, $subject, $message);
 		echo $postID;	
 	}
 	else echo 0;
