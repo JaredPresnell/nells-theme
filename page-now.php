@@ -46,8 +46,6 @@
 						</div> <!-- row -->
 					</div> <!-- col-9 -->
 				</div><!-- .row -->
-				
-			<?php //get_template_part('inc/template-parts/nells', 'footer');?>	
 			</div><!-- about_container -->	
 
 		   <?php

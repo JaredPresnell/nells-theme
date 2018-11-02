@@ -12,5 +12,4 @@
 			<div id="profile-picture-preview" class="profile-picture" style="background-image: url(<?php print $profilePicture;?>);"></div>
 		</div>
 	</div>
-	<!-- <h2 class="nells_description"></h2> -->
 </div><!-- nells_sidebar_preview -->

@@ -1,3 +1,3 @@
 <div>
-	<h1> Test for single.php</h1>
+	<h1>single.php</h1>
 </div>

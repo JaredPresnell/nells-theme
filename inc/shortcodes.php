@@ -2,6 +2,9 @@
 /*
 @package nells
 */
+
+//this shortcode no longer in use, but it's here as an example
+// ob_start() puts the template part into the output buffer, so it loads in the correct order on the page
 function nells_contact_form($atts, $content=null){
 	//[contact_form]
 

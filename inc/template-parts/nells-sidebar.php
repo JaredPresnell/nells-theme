@@ -4,8 +4,7 @@
 
 	</div>
 </div>
-<!-- <button id="nells_mobile_hamburger"><i class="nells_mobile_button fas fa-bars"></i></button> -->
-<!-- <button id="nells_mobile_exit"><i class="nells_mobile_button fas fa-times-circle"></i></button> -->
+
 <div class="nells_mobile_sidebar_header">
 	<i id="nells_mobile_hamburger" class="nells_mobile_button fas fa-bars"></i>
 	<i id="nells_mobile_exit" class="nells_mobile_button fas fa-times-circle"></i>

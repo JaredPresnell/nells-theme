@@ -50,9 +50,6 @@ function nells_custom_settings(){
 	add_settings_section( $section_id, $section_title, $section_callback, $page );
 	add_settings_field($field_id, $field_title, $field_callback, $page, $section_id );
 
-	// register_setting( 'nells-pages-settings-group', 'nells_pages');
-	// add_settings_section( 'nells-pages-settings', 'Pages Settings', 'nells_pages_options', 'nells_admin_settings' );
-	// add_settings_field('settings-pages', 'Pages', 'nells_widget_pages', 'nells_admin_settings', 'nells-pages-settings');
 }
 
 function nells_widget_pages(){

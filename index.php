@@ -14,9 +14,7 @@ else{get_header();} ?>
 			
 			<div class="container">
 				
-				<?php 
-					//query_posts(array('post_type' =>array('book') ) );
-					
+				<?php 					
 					if(have_posts()):
 					   	while ( have_posts() ) : the_post();
 							get_template_part( 'inc/template-parts/content', get_post_format() );						
