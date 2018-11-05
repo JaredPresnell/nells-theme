@@ -9,7 +9,6 @@
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta name="google-site-verification" content="4hHkUljiqWGO4fntf5smbp-ujtQcej7j6VpHr2uZO3k" />
-		<!-- <title><?php bloginfo( 'name' ); wp_title(); ?></title> -->
 		<?php if(is_front_page()){
 			$title = "Jared Presnell";
 		}
